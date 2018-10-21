@@ -6,7 +6,7 @@ const client = new vision.ImageAnnotatorClient();
 
 // Performs label detection on the image file
 client
-  .labelDetection('./resources/comic1.jpg')
+  .labelDetection('./resources/deadpool.png')
   .then(results => {
     const labels = results[0].labelAnnotations;
 
